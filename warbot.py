@@ -1373,9 +1373,7 @@ def serviceX(rank):
                 contact = tagTarget["MENTIONEES"][0]["M"]                
                 allkicker = [kk1,kk2,kk3,kk4]
                 forall = random.choice(allkicker)
-                try:
-                    forall.kickoutFromGroup(contact)
-                except:me.sendMessage(R,"limit broo....")
+                forall.kickoutFromGroup(contact)
         if rank.type == 26:
           if PrankBots["bot"] == True:
             msg = rank.message
