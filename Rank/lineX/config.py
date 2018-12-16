@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from akad.ttypes import ApplicationType
 import re
-Ap_Header = ApplicationType._VALUES_TO_NAMES[304]
-Ap_Version = '8.11.0'
+Ap_Header = ApplicationType._VALUES_TO_NAMES[368]
+Ap_Version = '2.1.5'
 class Config(object):
     LINE_HOST_DOMAIN            = 'https://gd2.line.naver.jp'
     LINE_OBS_DOMAIN             = 'https://obs-sg.line-apps.com'
