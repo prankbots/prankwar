@@ -1,3 +1,0 @@
-# prankwar
-
-akan hadir
